@@ -1,11 +1,13 @@
 # Problem-Statement-2
-**Given an array of bird where every element represents a bird type id, determine the ids of the most 
-frequently and least frequently sighted type. If more than 1 type has been spotted that maximum 
-amount, return the smallest of their ids & If more than 1 type has been spotted that minimum amount, 
-return the smallest of their ids.**
+**Given a time in 12-hr AM/PM format, convert it to military time(24hr) and you also need to add 45 
+min &45 sec in the result and the display the output.**
 
 ### Things used
-- 
+- Substr
+- ParseInt
+- Type Conversion
+- Destructuring
+- Time Logic
 
 ## Approach
 1. Firstly split the string at the symbol `:` from that we get *Hours , Minutes and Seconds*.
